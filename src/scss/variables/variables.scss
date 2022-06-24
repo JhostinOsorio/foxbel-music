@@ -1,0 +1,43 @@
+// Layout
+$container-min-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px
+);
+
+$primary: #E86060;
+$white: #FFF;
+
+// Text
+$text-primary: $primary;
+$text-white: $white;
+$gray: #828282;
+$soft-gray: #BDBDBD;
+$gray-2: #4F4F4F;
+
+// Sidebar
+$width-sm-sidebar: 230px;
+$width-md-sidebar: 280px;
+$width-lg-sidebar: 330px;
+$bg-color-sidebar: #662323;
+$text-color-sidebar: $white;
+$padding-x-sidebar: 2.5rem;
+$padding-y-item-sidebar: .025rem;
+
+// Content right
+$padding-x-content-right: 3rem;
+
+// Navbar
+$height-sm-navbar: 50px;
+$height-md-navbar: 65px;
+$height-lg-navbar: 80px;
+$bg-color-navbar: $white;
+
+// Footer
+$height-sm-footer: 70px;
+$height-md-footer: 85px;
+$height-lg-footer: 100px;
+$bg-color-footer: #EB5757;
+$color-footer: $white;

@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 12px;
+
+  @media screen and (min-width: map-get($container-min-widths, 'md')) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: map-get($container-min-widths, 'lg')) {
+    font-size: 16px;
+  }
+
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

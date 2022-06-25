@@ -238,6 +238,7 @@ export default {
     border-radius: 100px;
     border: none;
     padding: 0.5em 1.5rem;
+    border: 1px solid $primary;
   }
 
   &__seguir {

@@ -122,6 +122,10 @@ export default {
 }
 
 .section-down {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   height: $height-sm-footer;
 
   @media screen and (min-width: map-get($container-min-widths, 'sm')) {

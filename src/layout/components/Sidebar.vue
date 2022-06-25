@@ -119,7 +119,7 @@ export default {
 
   &-close {
     position: absolute;
-    bottom: 3rem;
+    bottom: 6rem;
     right: $padding-x-sidebar;
     color: $primary;
     display: flex;

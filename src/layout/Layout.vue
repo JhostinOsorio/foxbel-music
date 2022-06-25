@@ -123,6 +123,7 @@ export default {
 
 .section-down {
   position: sticky;
+  z-index: 7;
   bottom: 0;
   left: 0;
   width: 100%;
